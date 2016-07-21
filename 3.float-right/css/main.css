@@ -1,0 +1,23 @@
+body {
+  padding: 80px;
+}
+body::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+hr {
+  margin: 50px;
+  clear: both;
+  border-color: #ccc;
+}
+
+img {
+  vertical-align: baseline;
+}
+
+.float-right {
+  float: right;
+  margin: 0 0 10px 10px;
+}
